@@ -1,0 +1,90 @@
+,joinedLabel
+adventitial cell,adventitial cell
+cardiac muscle cell,cardiac muscle cell
+cell of skeletal muscle,cell of skeletal muscle
+fibroblast,fibroblast/mesenchymal stem cell
+mesenchymal stem cell,fibroblast/mesenchymal stem cell
+melanocyte,melanocyte
+mesothelial cell,mesothelial cell
+pancreatic stellate cell,pancreatic stellate cell
+pericyte cell,pericyte cell
+schwann cell,schwann cell
+smooth muscle cell,smooth muscle cell
+stromal cell,stromal cell
+tendon cell,tendon cell
+acinar cell of salivary gland,acinar cell of salivary gland/myoepithelial cell
+myoepithelial cell,acinar cell of salivary gland/myoepithelial cell
+basal cell,basal cell
+basal cell of prostate epithelium,basal cell of prostate epithelium
+bladder urothelial cell,bladder urothelial cell
+ciliated cell,ciliated cell/lung ciliated cell
+lung ciliated cell,ciliated cell/lung ciliated cell
+ciliated epithelial cell,ciliated epithelial cell/epithelial cell of uterus
+epithelial cell of uterus,ciliated epithelial cell/epithelial cell of uterus
+club cell,club cell/type i pneumocyte
+type i pneumocyte,club cell/type i pneumocyte
+club cell of prostate epithelium,club cell of prostate epithelium/hillock cell of prostate epithelium/hillock-club cell of prostate epithelium
+hillock cell of prostate epithelium,club cell of prostate epithelium/hillock cell of prostate epithelium/hillock-club cell of prostate epithelium
+hillock-club cell of prostate epithelium,club cell of prostate epithelium/hillock cell of prostate epithelium/hillock-club cell of prostate epithelium
+duct epithelial cell,duct epithelial cell/serous cell of epithelium of bronchus
+serous cell of epithelium of bronchus,duct epithelial cell/serous cell of epithelium of bronchus
+duodenum glandular cell,duodenum glandular cell
+enterocyte of epithelium of large intestine,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+enterocyte of epithelium of small intestine,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+intestinal crypt stem cell of large intestine,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+large intestine goblet cell,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+mature enterocyte,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+paneth cell of epithelium of large intestine,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+small intestine goblet cell,enterocyte of epithelium of large intestine/enterocyte of epithelium of small intestine/intestinal crypt stem cell of large intestine/large intestine goblet cell/mature enterocyte/paneth cell of epithelium of large intestine/small intestine goblet cell
+goblet cell,goblet cell
+hepatocyte,hepatocyte
+immature enterocyte,immature enterocyte/intestinal crypt stem cell/intestinal crypt stem cell of small intestine/transit amplifying cell of large intestine
+intestinal crypt stem cell,immature enterocyte/intestinal crypt stem cell/intestinal crypt stem cell of small intestine/transit amplifying cell of large intestine
+intestinal crypt stem cell of small intestine,immature enterocyte/intestinal crypt stem cell/intestinal crypt stem cell of small intestine/transit amplifying cell of large intestine
+transit amplifying cell of large intestine,immature enterocyte/intestinal crypt stem cell/intestinal crypt stem cell of small intestine/transit amplifying cell of large intestine
+intestinal enteroendocrine cell,intestinal enteroendocrine cell/paneth cell of epithelium of small intestine/transit amplifying cell of small intestine
+paneth cell of epithelium of small intestine,intestinal enteroendocrine cell/paneth cell of epithelium of small intestine/transit amplifying cell of small intestine
+transit amplifying cell of small intestine,intestinal enteroendocrine cell/paneth cell of epithelium of small intestine/transit amplifying cell of small intestine
+intestinal tuft cell,intestinal tuft cell
+intrahepatic cholangiocyte,intrahepatic cholangiocyte
+ionocyte,ionocyte/luminal epithelial cell of mammary gland
+luminal epithelial cell of mammary gland,ionocyte/luminal epithelial cell of mammary gland
+keratinocyte,keratinocyte
+kidney epithelial cell,kidney epithelial cell
+luminal cell of prostate epithelium,luminal cell of prostate epithelium
+medullary thymic epithelial cell,medullary thymic epithelial cell
+mucus secreting cell,mucus secreting cell/secretory cell/tracheal goblet cell
+secretory cell,mucus secreting cell/secretory cell/tracheal goblet cell
+tracheal goblet cell,mucus secreting cell/secretory cell/tracheal goblet cell
+pancreatic acinar cell,pancreatic acinar cell
+pancreatic alpha cell,pancreatic alpha cell/pancreatic beta cell
+pancreatic beta cell,pancreatic alpha cell/pancreatic beta cell
+pancreatic delta cell,pancreatic delta cell
+pancreatic ductal cell,pancreatic ductal cell
+pancreatic pp cell,pancreatic pp cell
+pulmonary ionocyte,pulmonary ionocyte
+respiratory goblet cell,respiratory goblet cell/respiratory mucous cell/serous cell of epithelium of trachea
+respiratory mucous cell,respiratory goblet cell/respiratory mucous cell/serous cell of epithelium of trachea
+serous cell of epithelium of trachea,respiratory goblet cell/respiratory mucous cell/serous cell of epithelium of trachea
+salivary gland cell,salivary gland cell
+type ii pneumocyte,type ii pneumocyte
+b cell,b cell
+basophil,basophil
+erythrocyte,erythrocyte/erythroid progenitor
+erythroid progenitor,erythrocyte/erythroid progenitor
+hematopoietic stem cell,hematopoietic stem cell
+innate lymphoid cell,innate lymphoid cell
+macrophage,macrophage
+mast cell,mast cell
+mature conventional dendritic cell,mature conventional dendritic cell
+microglial cell,microglial cell
+monocyte,monocyte
+myeloid progenitor,myeloid progenitor
+neutrophil,neutrophil
+nk cell,nk cell
+plasma cell,plasma cell
+plasmablast,plasmablast
+platelet,platelet
+t cell,t cell
+thymocyte,thymocyte
+endothelial cell,endothelial cell

@@ -1,0 +1,42 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+# idea is to get scaling factors for both munchel and 
+```{r}
+library(tidyverse) # package for reading excel sheets for munchel
+library(readxl)
+library(edgeR)     # package to do TMM normalization
+```
+
+
+```{r}
+epoCts= read.csv("~/Documents/deconvolution/molecstetho/remapped_unstranded/epoONLY_htseq-cts_unstrandedTS3_postQC.csv", header = TRUE, row.names = NULL)
+```
+
+```{r}
+head(epoCts)
+```
+
+```{r}
+epoCts[,3:ncol(epoCts)]
+```
+
+```{r}
+dim(as.matrix(epoCts[,3:ncol(epoCts)]))
+```
+
+```{r}
+tmmEPOApril <- calcNormFactors(as.matrix(epoCts[,3:ncol(epoCts)]), method = "TMM")
+tmmEPOApril <- data.frame(tmmEPOApril)
+tmmEPOApril["libsize"] <- colSums(epoCts[,3:ncol(epoCts)])
+```
+
+
+```{r}
+#write.csv(tmmEPOApril, "/Users/kayaneh/Documents/deconvolution/molecstetho/remapped_unstranded/tmmScalingFactors_onlyAprilEPO_unstranded_08152021.csv", row.names = TRUE)
+write.csv(tmmEPOApril, "/Users/kayaneh/Documents/deconvolution/molecstetho/remapped_unstranded/tmmScalingFactors_epoONLY_unstranded_INTRON3_09222021.csv", row.names = TRUE)
+```
+
