@@ -1,5 +1,5 @@
 # Cell Types of Origin of the Cell Free Transcriptome
-## Project Code
+Repository to reproduce analyses from manuscript titled "Cell Types of Origin of the Cell Free Transcriptome"
 
 For deconvolving your own cfRNA samples with Tabula Sapiens, check out the directory ```deconvolve_cfRNA_TSP```!
 
