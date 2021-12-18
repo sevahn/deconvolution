@@ -11,12 +11,7 @@ Individual cell atlases as noted in the main text of the manuscript need to be r
 
 * Code for Fig 2 & associated Supplemental Figs: ```fig2_git/``` 
 
-
-* Code for Fig 3 & associated Supplemental Figs: ```fig3_git/```
-
-
 * Code for plots in Supplementary Fig 8: ```gini_tau/```
-
 
 * Associated gene signatures/accessory files: ```signatures_git```   
 
