@@ -1,14 +1,15 @@
 # nuSVR Deconvolution of Cell Free RNA using Tabula Sapiens v 1.0
 
 To deconvolve samples:
+
 * Step 1. Conda environment
-	- Create the conda environment with the packages using 'cfrna_deconv.yml'
+	* Create the conda environment with the packages using 'cfrna_deconv.yml'
 
 * Step 2. Basis Matrix
-	- Tabula Sapiens v1 basis matrix (as in this work): unzip the basis matrix (`gunzip tsp_v1_basisMatrix.txt.gz`)
-	- Custom basis matrix: make sure that you have the valid file path.
+	* Tabula Sapiens v1 basis matrix (as in this work): unzip the basis matrix (`gunzip tsp_v1_basisMatrix.txt.gz`)
+	* Custom basis matrix: make sure that you have the valid file path.
 		-  Required format: first column is a list of genes and each subsequent column corresponds to a sample 
-	- 🚨 IMPORTANT NOTES
+	* 🚨 IMPORTANT NOTES
 		- If using a custom basis matrix, update the header of `deconvolve.py` with its path
 		- The units must match between the basis matrix two (e.g. both CPM or both TPM, etc) and **there must be no log-transformation**. If you're using the TSP v1 basis matrix, the units are CPM. 
 
