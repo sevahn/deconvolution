@@ -48,17 +48,20 @@ for samp in sampNames:
 bestCoef[bestCoef < 0] = 0 # this is a samp x cells matrix
 bestCoef = bestCoef.T
 
+deconvPerf = bestCoef.iloc[-2:, :] # get r and rmse
+bestCoef = bestCoef.iloc[:-2, :] # get coefs only
+
 # normalize by total to get the fractions of cell type specific RNA
-fracs = bestCoef.div(bestCoef.sum(axis = 1), axis = 0) 
+fracs = bestCoef.div(bestCoef.sum(axis = 0), axis = 1) 
 
 # get the support vectors corresponding to the best coefficient pair
 suppvecs = allSuppVec[bestCoef.columns.tolist()]
 
 # strip the hyperparameter information so it's just the sample names
-bestCoef.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
+fracs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 suppvecs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 
 # write out the support vectors and the fractions
-suppvecs.to_csv(datasetName  + "support_vectors_" + fend + ".csv", sep = ",", header = True, index = False)
+suppvecs.to_csv(datasetName  + "support_vectors" + fend + ".csv", sep = ",", header = True, index = False)
 fracs.to_csv(datasetName + "_fractions" + fend + ".csv", sep = ",", header = True, index = True)
 
