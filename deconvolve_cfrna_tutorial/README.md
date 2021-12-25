@@ -37,4 +37,5 @@ To deconvolve samples:
 * Step 6: When your jobs complete, run `merge_2.py`, this will write out two files, one of all the deconvoled fractions and one with the corresponding support vectors for each sample.
 
 * Step 7: Analyze data :) 
- 
+
+Also: there was a lot of erythrolysis in the samples in the tutorial here, hence the large erythrocyte fractions 
