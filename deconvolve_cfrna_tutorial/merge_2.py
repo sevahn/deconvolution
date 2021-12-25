@@ -64,6 +64,9 @@ fracs = pd.concat([fracs, deconvPerf])
 fracs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 suppvecs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 
+# remove the all-zero rows
+fracs = fracs.loc[~(fracs == 0).all(axis = 1)]
+
 # write out the support vectors and the fractions
 suppvecs.to_csv(datasetName  + "_support_vectors" + fend + ".csv", sep = ",", header = True, index = False)
 fracs.to_csv(datasetName + "_fractions" + fend + ".csv", sep = ",", header = True, index = True)
