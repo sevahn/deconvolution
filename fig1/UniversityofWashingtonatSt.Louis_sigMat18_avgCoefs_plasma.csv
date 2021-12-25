@@ -1,0 +1,63 @@
+,University of Washington at St. Louis
+erythrocyte/erythroid progenitor,0.4437961886683663
+platelet,0.10431299558559094
+monocyte,0.07791216371700263
+nk cell,0.04646257185220471
+b cell,0.04078151836269387
+basophil,0.03240600341972542
+mature conventional dendritic cell,0.028461222104502235
+endothelial cell,0.027359811281391134
+neutrophil,0.020316886730570975
+cell of skeletal muscle,0.019172826753199947
+adventitial cell,0.016907004197842194
+thymocyte,0.013795595127581299
+intestinal tuft cell,0.013577465737440113
+salivary/bronchial secretory cell,0.011914204822344643
+macrophage,0.008873193579746695
+kidney epithelial cell,0.008524689554893548
+medullary thymic epithelial cell,0.008522703470455877
+intestinal enterocyte,0.007304518064290266
+salivary gland cell,0.0069505283169707865
+basal cell,0.006655096913646128
+pancreatic stellate cell,0.00610877087013443
+myeloid progenitor,0.005813913127474164
+respiratory ciliated cell,0.005620816231554867
+intrahepatic cholangiocyte,0.005218578146974345
+intestinal secretory cell,0.004804391128495078
+ionocyte/luminal epithelial cell of mammary gland,0.004265479943903535
+pericyte cell,0.0035967365372555557
+schwann cell,0.0031448238112395856
+secretory cell,0.002850582325356922
+pancreatic alpha/beta cell,0.0025717119065655765
+type ii pneumocyte,0.002372959102778273
+t cell,0.0015195948382024942
+respiratory secretory cell,0.001362379576886908
+prostate epithelia,0.0011434641169692486
+basal cell of prostate epithelium,0.0010019418291889483
+plasma cell,0.0009985897448339472
+mesothelial cell,0.0006205947049789232
+pancreatic ductal cell,0.0005181631802255812
+plasmablast,0.0005140748690351178
+goblet cell,0.0003654269010216097
+innate lymphoid cell,0.0002444557120641285
+pancreatic delta cell,0.00021824125548776168
+club cell/type i pneumocyte,0.00020007427274783092
+pancreatic acinar cell,0.00017926172693471287
+pancreatic pp cell,0.00014705397325691513
+hematopoietic stem cell,0.00013555120673088328
+bladder urothelial cell,0.00012805126275756458
+stromal cell,0.00010414102293290856
+tendon cell,6.15745332118374e-05
+melanocyte,5.977915331230029e-05
+cardiac muscle cell,5.254416804414082e-05
+hepatocyte,4.599760346030743e-05
+fibroblast/mesenchymal stem cell,3.0929555238807842e-06
+mast cell,0.0
+intestinal crypt stem cell,0.0
+smooth muscle cell,0.0
+gland cell,0.0
+ciliated epithelial cell/epithelial cell of uterus,0.0
+duodenum glandular cell,0.0
+luminal cell of prostate epithelium,0.0
+pulmonary ionocyte,0.0
+keratinocyte,0.0
