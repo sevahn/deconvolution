@@ -57,6 +57,9 @@ fracs = bestCoef.div(bestCoef.sum(axis = 0), axis = 1)
 # get the support vectors corresponding to the best coefficient pair
 suppvecs = allSuppVec[bestCoef.columns.tolist()]
 
+# add the deconvolution performance
+fracs = pd.concat([fracs, deconvPerf])
+
 # strip the hyperparameter information so it's just the sample names
 fracs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 suppvecs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
