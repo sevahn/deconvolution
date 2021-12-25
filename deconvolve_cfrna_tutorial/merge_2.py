@@ -65,6 +65,6 @@ fracs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 suppvecs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 
 # write out the support vectors and the fractions
-suppvecs.to_csv(datasetName  + "support_vectors" + fend + ".csv", sep = ",", header = True, index = False)
+suppvecs.to_csv(datasetName  + "_support_vectors" + fend + ".csv", sep = ",", header = True, index = False)
 fracs.to_csv(datasetName + "_fractions" + fend + ".csv", sep = ",", header = True, index = True)
 
