@@ -38,4 +38,4 @@ To deconvolve samples:
 
 * Step 7: Analyze data :) 
 
-**Please note that there was a lot of erythrolysis in the samples in the tutorial here, hence the large erythrocyte fractions** 
+*Please note that there was a lot of erythrolysis in the samples in the tutorial here, hence the large erythrocyte fractions*
