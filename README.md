@@ -6,7 +6,7 @@
 	* GTEX deconvolution: ```gtex_deconvolution/``` 
 	* cfRNA deconvolution: ```cfRNA_deconvolution/```
 
-🩸 Code for Fig 2 & associated Extended Data: ```fig2``` 
+🩸 Code for Fig 2 & associated Extended Data: ```fig2/``` 
 
 🩸 Gene signatures/accessory files: ```signatures_git```   
 
