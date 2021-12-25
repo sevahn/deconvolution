@@ -10,7 +10,7 @@ import numpy as np
 
 # path to your CPM-normalized counts
 # IMPORTANT: first row should be gene names, column names should be samples
-sampPath = "/oak/stanford/groups/quake/sevahn/alzheimers/ad_cpmOnly_postQC_unstranded_FINAL.csv"
+sampPath = "samples.csv"
 
 env = "snakemake" # name of the conda environment 
 
