@@ -38,7 +38,3 @@ To deconvolve samples:
 
 * Step 7: Analyze data :) 
  
-PLEASE READ: couple deconvolution notes:
-* Do *not* pass in samples in log-transformed space. For a full proof for why this is inappropriate, please check out this reference: (Zhong, Y. & Liu, Z., Nature Methods 2012)
-* The fractions that come out of this program using this program denote the relative fractional contributions of cell type specific RNA for the 23 tissues from which these cell types originate (if using the Tabula Sapiens v1.0 basis matrix) 
-* If you are looking for signal from a specific tissue-specific cell type in cfRNA, it is advised to perform signature scoring in conjunction with systems-level deconvolution.
