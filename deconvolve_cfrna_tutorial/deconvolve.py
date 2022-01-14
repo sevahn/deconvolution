@@ -1,5 +1,6 @@
 # Sevahn Vorperian
 # Quake Lab @ Stanford University
+# Code for Fig. 1D in 'Cell Types of Origin of the Cell Free Transcriptome'
 # Deconvolve cfRNA into relative fractional contributions of cell type specific RNA
 # December 2021
 
@@ -48,6 +49,7 @@ def processMixture(mixturePath):
         dataframe with CPM counts as values in matrix
     """
     thuyDat = pd.read_csv(mixturePath, sep = ",", index_col = 0)
+    print('HEAD ', thuyDat.head())
     
     # no need to CPM normalize, data passed in is already CPM-normalized
     thuyCPM = thuyDat

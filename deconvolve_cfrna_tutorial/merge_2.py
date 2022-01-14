@@ -8,6 +8,7 @@ import numpy as np
 import scanpy as sc
 
 import os
+
 # dataset name
 datasetName = "NCI_cfRNA" # name of dataset
 fend = "_12142021" # name of file ending...
@@ -44,30 +45,26 @@ for samp in sampNames:
     best = hyperCombosThisSamp[hyperCombosThisSamp['rmse'] == np.min(hyperCombosThisSamp['rmse'])]
     bestCoef = pd.concat([bestCoef, best])
 
+performance = bestCoef.iloc[:,-2:].T
+bestCoef = bestCoef.iloc[:,:-2]
+
 # send negative coefs to zero
 bestCoef[bestCoef < 0] = 0 # this is a samp x cells matrix
 bestCoef = bestCoef.T
 
-deconvPerf = bestCoef.iloc[-2:, :] # get r and rmse
-bestCoef = bestCoef.iloc[:-2, :] # get coefs only
-
 # normalize by total to get the fractions of cell type specific RNA
 fracs = bestCoef.div(bestCoef.sum(axis = 0), axis = 1) 
+
+fracs = pd.concat([fracs, performance], axis = "index")
 
 # get the support vectors corresponding to the best coefficient pair
 suppvecs = allSuppVec[bestCoef.columns.tolist()]
 
-# add the deconvolution performance
-fracs = pd.concat([fracs, deconvPerf])
-
 # strip the hyperparameter information so it's just the sample names
-fracs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
+bestCoef.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 suppvecs.columns = [i.split("-NUSVR")[0] for i in bestCoef.columns.tolist()]
 
-# remove the all-zero rows
-fracs = fracs.loc[~(fracs == 0).all(axis = 1)]
-
 # write out the support vectors and the fractions
-suppvecs.to_csv(datasetName  + "_support_vectors" + fend + ".csv", sep = ",", header = True, index = False)
+suppvecs.to_csv(datasetName  + "support_vectors_" + fend + ".csv", sep = ",", header = True, index = False)
 fracs.to_csv(datasetName + "_fractions" + fend + ".csv", sep = ",", header = True, index = True)
 

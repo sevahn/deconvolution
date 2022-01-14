@@ -1,0 +1,129 @@
+Performing nu-SVR
+nu = 0.05
+C = 0.1
+done fitting -- total fit time was 2.80294132232666
+sampName in nuSVR 1850
+nu = 0.1
+C = 0.1
+done fitting -- total fit time was 4.467530965805054
+sampName in nuSVR 1850
+nu = 0.15
+C = 0.1
+done fitting -- total fit time was 7.315281867980957
+sampName in nuSVR 1850
+nu = 0.25
+C = 0.1
+done fitting -- total fit time was 13.082152843475342
+sampName in nuSVR 1850
+nu = 0.5
+C = 0.1
+done fitting -- total fit time was 24.57439613342285
+sampName in nuSVR 1850
+nu = 0.75
+C = 0.1
+done fitting -- total fit time was 36.18886399269104
+sampName in nuSVR 1850
+nu = 0.05
+C = 0.5
+done fitting -- total fit time was 7.748459577560425
+sampName in nuSVR 1850
+nu = 0.1
+C = 0.5
+done fitting -- total fit time was 14.717873334884644
+sampName in nuSVR 1850
+nu = 0.15
+C = 0.5
+done fitting -- total fit time was 25.69092607498169
+sampName in nuSVR 1850
+nu = 0.25
+C = 0.5
+done fitting -- total fit time was 43.85811948776245
+sampName in nuSVR 1850
+nu = 0.5
+C = 0.5
+done fitting -- total fit time was 96.8101716041565
+sampName in nuSVR 1850
+nu = 0.75
+C = 0.5
+done fitting -- total fit time was 137.83952498435974
+sampName in nuSVR 1850
+nu = 0.05
+C = 0.75
+done fitting -- total fit time was 9.268601655960083
+sampName in nuSVR 1850
+nu = 0.1
+C = 0.75
+done fitting -- total fit time was 19.8679518699646
+sampName in nuSVR 1850
+nu = 0.15
+C = 0.75
+done fitting -- total fit time was 35.87959265708923
+sampName in nuSVR 1850
+nu = 0.25
+C = 0.75
+done fitting -- total fit time was 65.91560459136963
+sampName in nuSVR 1850
+nu = 0.5
+C = 0.75
+done fitting -- total fit time was 140.7396206855774
+sampName in nuSVR 1850
+nu = 0.75
+C = 0.75
+done fitting -- total fit time was 192.09706664085388
+sampName in nuSVR 1850
+nu = 0.05
+C = 1
+done fitting -- total fit time was 11.905614376068115
+sampName in nuSVR 1850
+nu = 0.1
+C = 1
+done fitting -- total fit time was 23.38863754272461
+sampName in nuSVR 1850
+nu = 0.15
+C = 1
+done fitting -- total fit time was 47.14584755897522
+sampName in nuSVR 1850
+nu = 0.25
+C = 1
+done fitting -- total fit time was 80.2985110282898
+sampName in nuSVR 1850
+nu = 0.5
+C = 1
+done fitting -- total fit time was 171.2588701248169
+sampName in nuSVR 1850
+nu = 0.75
+C = 1
+done fitting -- total fit time was 255.3529326915741
+sampName in nuSVR 1850
+nu = 0.05
+C = 10
+done fitting -- total fit time was 96.30133867263794
+sampName in nuSVR 1850
+nu = 0.1
+C = 10
+done fitting -- total fit time was 175.9186508655548
+sampName in nuSVR 1850
+nu = 0.15
+C = 10
+done fitting -- total fit time was 361.74424147605896
+sampName in nuSVR 1850
+nu = 0.25
+C = 10
+done fitting -- total fit time was 671.0894916057587
+sampName in nuSVR 1850
+nu = 0.5
+C = 10
+done fitting -- total fit time was 1564.979240655899
+sampName in nuSVR 1850
+nu = 0.75
+C = 10
+done fitting -- total fit time was 2196.108050107956
+sampName in nuSVR 1850
+Deconvolution is Complete.
+HEAD                  1821       1850       1854
+gene_name                                 
+TSPAN6      7.684221   2.978462   2.291442
+TNMD        0.960528   0.992821   2.291442
+DPM1       16.328970   4.467692  19.859161
+SCYL3      10.565804  33.259487  11.457208
+C1orf112    5.763166   5.460513   3.819069
