@@ -18,6 +18,7 @@ Step 3. Bulk RNA samples for deconvolution
 		- If you are using the TSP v1 basis matrix, your samples *must* be CPM-normalized. If you're working with cfRNA, normalize for plasma volume too.
 		- If you are using your own basis matrix, the normalization units of the samples must correspond to the normalization scheme of the basis matrix. 
 		- Ensure that your sample file path corresponds to a file where the first column is a list of genes and each subsequent column corresponds to a single sample. Check out the sample sheet need be.
+		- The sample names cannot contain any '-' character. Please switch to "_" or some other character.
 		- The genes must have the same naming convention as that of the basis matrix. If you're using the TSP v1 basis matrix, use gene names (e.g. "NRGN" etc). Ensembl ID or Entrez gene ID will not work.
  
 Step 4. Generate Job Files
