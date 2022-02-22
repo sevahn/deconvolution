@@ -1,4 +1,4 @@
-# Cell Types of Origin of the Cell Free Transcriptome
+# Cell Types of origin of the cell free transcriptome
 
 * For deconvolving your own cfRNA samples with Tabula Sapiens, check out ```deconvolve_cfrna_tutorial/```
 
