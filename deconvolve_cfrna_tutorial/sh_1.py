@@ -12,7 +12,7 @@ import numpy as np
 # IMPORTANT: first row should be gene names, column names should be samples
 sampPath = "samples.csv"
 
-env = "snakemake" # name of the conda environment 
+env = "deconv" # name of the conda environment 
 
 partition = "owners,normal" # partition on supercomputer for jobs to be run 
 
