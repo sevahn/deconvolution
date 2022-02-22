@@ -7,7 +7,6 @@
 # the essentials
 import numpy as np
 import pandas as pd
-import scanpy as sc
 
 # scale mixture/matrix to zero mean/unit var
 from sklearn import preprocessing
