@@ -1,8 +1,14 @@
-# nuSVR Deconvolution of Cell Free RNA using Tabula Sapiens v 1.0
+# nuSVR deconvolution of cell-free RNA using Tabula Sapiens v 1.0
 
 To deconvolve samples:
 Step 1. Conda environment
 	- Create the conda environment with the packages using 'cfrna_deconv.yml'
+	- Note: if operating on a non-linux system and you experience package dependency issues, you can create a conda environment with the following packages
+		(1) python 3.7.4
+		(2) scikit-learn 0.24.2
+		(3) numpy 1.18.1
+		(4) cvx-opt 1.2.5
+		(5) scipy 1.5.2
 
 Step 2. Basis Matrix
 	- Tabula Sapiens v1 basis matrix (as in this work): unzip the basis matrix (`gunzip tsp_v1_basisMatrix.txt.gz`)
